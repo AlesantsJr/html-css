@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background-color: darkgreen;
+    font-size: 18px;
+}
+h1{
+    color: rgb(237, 241, 8);
+    text-align: center;
+}
+h2{
+   color: rgb(74, 225, 19); 
+}
+a{
+    color: rgb(237, 241, 8);
+}
+p{
+    color: aliceblue;
+}

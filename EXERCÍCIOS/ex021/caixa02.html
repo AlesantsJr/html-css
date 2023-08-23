@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            font-size: 12px;
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+            padding: 10px;
+            margin: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(46, 4, 85);
+            height: 40px;
+        }
+
+        nav>p>a {
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        nav>p>a:hover {
+            color: rgb(252, 252, 252);
+            text-decoration: underline;
+        }
+
+        main{
+            margin: 10px;
+            border-radius: 20px 20px 20px 20px;
+            background-color: black;
+        }
+
+        main section {
+            color: aliceblue;
+            height: 220px;
+        }
+
+        main>section>ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 30px;
+        }
+
+        main>section>ul>li {
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer {
+            background-color: rgb(64, 7, 117);
+            padding: 5px;
+            margin-top: 5px;
+            color: aliceblue;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.348);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Criando uma estrutura para o site, com tags sêmanticas</h1>
+        <nav>
+            <p><a href="#">Instagram</a></p>
+            <p><a href="#">Repositório GitHub</a></p>
+            <p><a href="#">Canal no YouTube</a></p>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <ul>
+                <li>Jogos
+                    <ul>
+                        <li>God of War</li>
+                        <li>Residente Evil</li>
+                        <li>GTA SAN`ANDREAS</li>
+                    </ul>
+                </li>
+                <li>Animes
+                    <ul>
+                        <li>Naruto</li>
+                        <li>One piece</li>
+                        <li>Boku no Hero</li>
+                    </ul>
+                </li>
+                <li>Filmes
+                    <ul>
+                        <li>Velozes e Furiosos</li>
+                        <li>Naruto - The Last</li>
+                        <li>Paternidade</li>
+                    </ul>
+                </li>
+            </ul>
+
+        </section>
+        <section>
+            
+        </section>
+    </main>
+    <footer>Criado por Alessandro dos Santos Junior</footer>
+
+
+</body>
+
+</html>

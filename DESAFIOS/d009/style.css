@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+div {
+    text-align: center;
+    padding: 40px;
+}
+
+div,
+p,
+a {
+    color: aliceblue;
+}
+
+footer {
+    text-align: right;
+}
+
+.rodape {
+    font-size: 15px;
+    text-decoration: underline;
+}

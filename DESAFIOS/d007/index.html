@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 7</title>
+    <style>
+        section{
+           text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Imagem flexivel</h1>
+        <p>Para melhorar a experiencia, aumente o tamanho da janela!</p>
+    </section>
+    
+    <picture>
+        <source media="(max-width: 600px )" srcset="imagens/montanhas-p.jpeg" type="image/jpeg">
+        <source media="(max-width: 900px )" srcset="imagens/montanhas-m.jpeg" type="image/jpeg">
+        <img src="imagens/montanhas-g.jpeg" alt="">
+    </picture>
+
+    
+</body>
+</html>
